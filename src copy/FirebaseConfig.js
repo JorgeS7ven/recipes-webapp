@@ -18,10 +18,10 @@ if (!firebase.apps.length) {
 export default firebase;
 
 
-// "AIzaSyBcU3lVjqyzv6-cDAdwU9jYb7oufaOEgkI"
-// "fir-recipes-cc997.firebaseapp.com"
-// "fir-recipes-cc997"
-// "fir-recipes-cc997.appspot.com"
-// "538845590040"
-// "1:538845590040:web:2c0f584dcc18842e57496d"
-// "G-0GJT3QFWYF"
+"AIzaSyBcU3lVjqyzv6-cDAdwU9jYb7oufaOEgkI"
+"fir-recipes-cc997.firebaseapp.com"
+"fir-recipes-cc997"
+"fir-recipes-cc997.appspot.com"
+"538845590040"
+"1:538845590040:web:2c0f584dcc18842e57496d"
+"G-0GJT3QFWYF"
