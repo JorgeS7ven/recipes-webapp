@@ -8,14 +8,14 @@ jobs:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     env:
-      REACT_APP_API_KEY: "${{ secrets.REACT_APP_API_KEY }}"
-      REACT_APP AUTH DOMAIN: "${{ secrets. REACT APP AUTH DOMAIN }}"
-      REACT_APP DATABASE_ URL: "${{ secrets.REACT APP DATABASE URL }}"
-      REACT_APP_PROJECT_ID: " ${{ secrets. REACT_APP_ PROJECT_ID }}"
-      REACT_ APP STORAGE BUCKET: "${{ secrets. REACT_APP_ STORAGE BUCKET }"
-      REACT_APP_MESSAGING_SENDER_ID: "${{ secrets. REACT_APP_MESSAGING_SENDER_ID }}"
-      REACT_APP_APP_ID: "${{ secrets.REACT_APP_APP_ID }}"
-      REACT_APP_MEASUREMENT_ID: "${{ secrets.REACT_APP MEASUREMENT }}"
+      REACT_APP_API_KEY: '${{ secrets.REACT_APP_API_KEY }}'
+      REACT_APP AUTH DOMAIN: '${{ secrets. REACT APP AUTH DOMAIN }}'
+      REACT_APP DATABASE_ URL: '${{ secrets.REACT APP DATABASE URL }}'
+      REACT_APP_PROJECT_ID: ' ${{ secrets. REACT_APP_ PROJECT_ID }}'
+      REACT_ APP STORAGE BUCKET: '${{ secrets. REACT_APP_ STORAGE BUCKET }'
+      REACT_APP_MESSAGING_SENDER_ID: '${{ secrets. REACT_APP_MESSAGING_SENDER_ID }}'
+      REACT_APP_APP_ID: '${{ secrets.REACT_APP_APP_ID }}'
+      REACT_APP_MEASUREMENT_ID: '${{ secrets.REACT_APP MEASUREMENT }}'
     steps:
       - uses: actions/checkout@v2
       - run: npm install
